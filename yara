@@ -1,5 +1,5 @@
-rule royal_ransomware
-{
+rule royal_ransomware{
+    Author: Fevar54
     meta:
         description = "Detects Royal ransomware's use of BlackCat encryption implementation."
     strings:
